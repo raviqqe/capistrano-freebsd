@@ -1,8 +1,6 @@
-require File.expand_path('lib/capistrano-freebsd/version', __dir__)
-
 Gem::Specification.new do |s|
   s.name        = 'capistrano-freebsd'
-  s.version     = CapistranoFreeBSD::VERSION
+  s.version     = '0.0.0'
   s.date        = Date.today.to_s
   s.license     = 'Unlicense'
 
