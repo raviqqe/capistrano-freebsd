@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.email       = 'raviqqe@gmail.com'
   s.homepage    = 'https://github.com/raviqqe/capistrano-freebsd'
 
-  s.files       = Dir['lib/**']
+  s.files       = Dir['lib/**/*']
 
   s.add_dependency 'sshkit', '~> 0'
 end
