@@ -1,11 +1,11 @@
-def pkg arg
+def pkg *args
   as :root do
-    execute :pkg, arg
+    execute :pkg, *args
   end
 end
 
-def service arg
+def service *args
   as :root do
-    execute :service, arg
+    execute :service, *args
   end
 end
