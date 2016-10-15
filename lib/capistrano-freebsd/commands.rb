@@ -9,3 +9,9 @@ def service *args
     execute :service, *args
   end
 end
+
+def sysrc *args
+  as :root do
+    execute :sysrc, *args
+  end
+end
